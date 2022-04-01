@@ -1,0 +1,51 @@
+function msg_s(m)
+(
+  ShowConsoleMsg(m);
+  ShowConsoleMsg("\n");
+);
+
+function msg_d(m)
+(
+  ShowConsoleMsg(sprintf(#, "%d", m)); // convert int to string
+  ShowConsoleMsg("\n");
+);
+
+// dialog with 3 inputs
+function dialog()
+(
+  #dialog_ret_vals = "-6"; //default values
+  GetUserInputs("Change Specific Send on Selected Tracks", 1, "Decibels +-:", #dialog_ret_vals);
+);
+
+function set_send_volumes(track, trim) local(tr_num_hw_outs, tr_num_sends, i, vol, new_vol)
+(
+  tr_num_hw_outs = GetTrackNumSends(track, 1);
+  tr_num_sends = GetTrackNumSends(track, 0);
+  i = 0;
+  loop(tr_num_sends,
+    GetTrackSendUIVolPan(track, tr_num_hw_outs + i, vol, 0);
+    new_vol = trim;
+    SetTrackSendUIVol(track, tr_num_hw_outs + i, new_vol, 0);
+    i += 1;
+  );
+);
+
+function main() local(i, tr)
+(
+  dialog() ? (
+    // convert first to int and store to "input1_val"
+    match("%d", #dialog_ret_vals, input1_val);
+    //msg_d(input1_val); // print int value
+    trim = pow(10, input1_val / 20.0);
+    i = 0;
+    loop(CountSelectedTracks(0),
+      (tr = GetSelectedTrack(0, i)) ? (
+        set_send_volumes(tr, trim);
+      );
+      i += 1;
+    );
+    Undo_OnStateChangeEx("Adjust send volumes", -1, -1);
+  );
+);
+
+main()

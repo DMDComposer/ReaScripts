@@ -1,6 +1,6 @@
 -- @description Hello world
--- @author cfillion
--- @version 1.0
+-- @author DMDComposer
+-- @version 1.1
 -- @about
 --   This is an example of a package file. It installs itself as a ReaScript that
 --   does nothing but show "Hello World!" in REAPER's scripting console.
@@ -9,5 +9,4 @@
 --
 --   This text is the documentation shown when using ReaPack's "About this package"
 --   feature. [Markdown](https://commonmark.org/) *formatting* is supported.
-
-reaper.ShowConsoleMsg 'Hello World!'
+reaper.ShowConsoleMsg 'Hello World, testing from github!'
