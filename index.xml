@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<index version="1" name="DMDComposer's ReaPack Repository" commit="58a3e39ba95bd0f35846aa1f39aa4cb2574295e1">
+<index version="1" name="DMDComposer's ReaPack Repository" commit="aff8a362448c54db424b60ebe19b3d32b36a9957">
   <category name="Example">
     <reapack name="cfillion_Hello world.lua" type="script" desc="Hello world">
       <metadata>
@@ -19,6 +19,49 @@ Markdown
       <version name="1.0" author="cfillion" time="2021-01-04T23:30:32Z">
         <source main="main">https://github.com/cfillion/reapack-repository-template/raw/58a3e39ba95bd0f35846aa1f39aa4cb2574295e1/Example/cfillion_Hello%20world.lua</source>
       </version>
+      <version name="1.1" author="DMDComposer" time="2022-04-01T12:14:27Z">
+        <source main="main">https://github.com/DMDComposer/ReaScripts/raw/aff8a362448c54db424b60ebe19b3d32b36a9957/Example/cfillion_Hello%20world.lua</source>
+      </version>
+    </reapack>
+  </category>
+  <category name="lua">
+    <reapack name="DMD_Set Volume of Selected Tracks.lua" type="script" desc="Set volume for selected tracks">
+      <version name="0.2015.9.27" author="spk77" time="2022-04-01T12:14:27Z">
+        <source main="main">https://github.com/DMDComposer/ReaScripts/raw/aff8a362448c54db424b60ebe19b3d32b36a9957/lua/DMD_Set%20Volume%20of%20Selected%20Tracks.lua</source>
+      </version>
+    </reapack>
+    <reapack name="MPL_Search Tracks.lua" type="script" desc="Search tracks">
+      <metadata>
+        <link rel="website">http://forum.cockos.com/member.php?u=70694</link>
+      </metadata>
+      <version name="1.0.1" author="MPL" time="2022-04-01T12:14:27Z">
+        <changelog><![CDATA[+ fix crash when pressing Ctrl+Right before typing anything]]></changelog>
+        <source main="main">https://github.com/DMDComposer/ReaScripts/raw/aff8a362448c54db424b60ebe19b3d32b36a9957/lua/MPL_Search%20Tracks.lua</source>
+      </version>
+    </reapack>
+    <reapack name="tack_Select Track by Name.lua" type="script" desc="Select Track By Name">
+      <version name="1.0" author="Jason Tackaberry (tack)" time="2022-04-01T12:14:27Z">
+        <source main="main">https://github.com/DMDComposer/ReaScripts/raw/aff8a362448c54db424b60ebe19b3d32b36a9957/lua/tack_Select%20Track%20by%20Name.lua</source>
+      </version>
+    </reapack>
+  </category>
+  <category name="python">
+    <reapack name="DMD_CC1 +10.py" type="script" desc="Invert selected CC event values">
+      <metadata>
+        <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 Courier;}}
+{\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
+\widowctrl\hyphauto
+
+{\pard \ql \f0 \sa180 \li0 \fi0 Inverts the values of the selected CC events. That is: 0 -> 127 127 -> 0 n -> 127-n\par}
+}
+]]></description>
+        <link rel="website" href="http://forum.cockos.com/member.php?u=10417">Lokasenna's Website</link>
+        <link rel="donation">https://paypal.me/Lokasenna</link>
+      </metadata>
+      <version name="1.0.0" author="Lokasenna" time="2022-04-01T12:14:27Z">
+        <changelog><![CDATA[Initial Release]]></changelog>
+        <source main="main">https://github.com/DMDComposer/ReaScripts/raw/aff8a362448c54db424b60ebe19b3d32b36a9957/python/DMD_CC1%20+10.py</source>
+      </version>
     </reapack>
   </category>
   <metadata>
@@ -27,24 +70,7 @@ Markdown
 \widowctrl\hyphauto
 
 {\pard \ql \f0 \sa180 \li0 \fi0 \b \fs36 ReaPack Repository Template\par}
-{\pard \ql \f0 \sa180 \li0 \fi0 A template for GitHub-hosted ReaPack repositories with automated {\field{\*\fldinst{HYPERLINK "https://github.com/cfillion/reapack-index"}}{\fldrslt{\ul
-reapack-index
-}}}
- running from GitHub Actions.\par}
-{\pard \ql \f0 \sa180 \li0 \fi0 Replace the name of the repository in {\field{\*\fldinst{HYPERLINK "/index.xml"}}{\fldrslt{\ul
-index.xml
-}}}
- when using this template. This will be the name shown in ReaPack.\par}
-{\pard \ql \f0 \sa180 \li0 \fi0 \f1 <index version="1" name="Name of your repository here">\par}
-{\pard \ql \f0 \sa180 \li0 \fi0 Replace the contents of this file ({\field{\*\fldinst{HYPERLINK "/README.md"}}{\fldrslt{\ul
-README.md
-}}}
-). This will be the text shown when using ReaPack's "About this repository" feature.\par}
-{\pard \ql \f0 \sa180 \li0 \fi0 reapack-index looks for package files in subfolders. The folder tree represents the package categories shown in ReaPack.\par}
-{\pard \ql \f0 \sa180 \li0 \fi0 Each package file is expected to begin with a metadata header. See {\field{\*\fldinst{HYPERLINK "https://github.com/cfillion/reapack-index/wiki/Packaging-Documentation"}}{\fldrslt{\ul
-Packaging Documentation
-}}}
- on reapack-index's wiki.\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 custom original scripts and/or improved/edited scripts for Reaper\par}
 {\pard \ql \f0 \sa180 \li0 \fi0 The URL to import in ReaPack is {\field{\*\fldinst{HYPERLINK "https://github.com/cfillion/reapack-repository-template/raw/master/index.xml"}}{\fldrslt{\ul
 https://github.com/{\f1 <your username>}/{\f1 <repository name>}/raw/master/index.xml
 }}}
