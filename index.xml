@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<index version="1" name="DMDComposer's ReaPack Repository" commit="52e81e45664468a082056396751a1e6ceb5cf996">
+<index version="1" name="DMDComposer's ReaPack Repository" commit="8c88a62ef3bbc2262cdeed2d6634dbef83fc1526">
   <category name="eel">
     <reapack name="DMD_Set All Send Volumes on Selected Tracks.eel" type="script" desc="Set All Send Volumes on Selected Tracks to the Same">
       <metadata>
@@ -27,30 +27,6 @@
       </metadata>
       <version name="1.1" author="DMDComposer" time="2022-04-01T12:32:29Z">
         <source main="main">https://github.com/DMDComposer/ReaScripts/raw/52e81e45664468a082056396751a1e6ceb5cf996/eel/DMD_Set%20Specific%20Send%20Volume%20on%20Selected%20Tracks.eel</source>
-      </version>
-    </reapack>
-  </category>
-  <category name="Example">
-    <reapack name="cfillion_Hello world.lua" type="script" desc="Hello world">
-      <metadata>
-        <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 Courier;}}
-{\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
-\widowctrl\hyphauto
-
-{\pard \ql \f0 \sa180 \li0 \fi0 This is an example of a package file. It installs itself as a ReaScript that does nothing but show "Hello World!" in REAPER's scripting console.\par}
-{\pard \ql \f0 \sa180 \li0 \fi0 Packages may also include additional files specified using the @provides tag.\par}
-{\pard \ql \f0 \sa180 \li0 \fi0 This text is the documentation shown when using ReaPack's "About this package" feature. {\field{\*\fldinst{HYPERLINK "https://commonmark.org/"}}{\fldrslt{\ul
-Markdown
-}}}
- {\i formatting} is supported.\par}
-}
-]]></description>
-      </metadata>
-      <version name="1.0" author="cfillion" time="2021-01-04T23:30:32Z">
-        <source main="main">https://github.com/cfillion/reapack-repository-template/raw/58a3e39ba95bd0f35846aa1f39aa4cb2574295e1/Example/cfillion_Hello%20world.lua</source>
-      </version>
-      <version name="1.1" author="DMDComposer" time="2022-04-01T12:14:27Z">
-        <source main="main">https://github.com/DMDComposer/ReaScripts/raw/aff8a362448c54db424b60ebe19b3d32b36a9957/Example/cfillion_Hello%20world.lua</source>
       </version>
     </reapack>
   </category>
@@ -170,6 +146,20 @@ Markdown
       </metadata>
       <version name="1.0" author="DMDComposer" time="2022-04-01T12:32:29Z">
         <source main="main">https://github.com/DMDComposer/ReaScripts/raw/52e81e45664468a082056396751a1e6ceb5cf996/lua/Set%20Master%20Volume%20Presets/DMD_Master%20Volume%20to%20-12db.lua</source>
+      </version>
+    </reapack>
+    <reapack name="DMD_Master Volume to -18db.lua" type="script" desc="Set master volume to -18db">
+      <metadata>
+        <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 Courier;}}
+{\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
+\widowctrl\hyphauto
+
+{\pard \ql \f0 \sa180 \li0 \fi0 reascript to set master volume\par}
+}
+]]></description>
+      </metadata>
+      <version name="1.0" author="DMDComposer" time="2022-04-01T12:39:50Z">
+        <source main="main">https://github.com/DMDComposer/ReaScripts/raw/8c88a62ef3bbc2262cdeed2d6634dbef83fc1526/lua/Set%20Master%20Volume%20Presets/DMD_Master%20Volume%20to%20-18db.lua</source>
       </version>
     </reapack>
     <reapack name="DMD_Master Volume to -24db.lua" type="script" desc="Set master volume to -24db">
@@ -326,8 +316,8 @@ Markdown
 
 {\pard \ql \f0 \sa180 \li0 \fi0 \b \fs36 ReaPack Repository Template\par}
 {\pard \ql \f0 \sa180 \li0 \fi0 custom original scripts and/or improved/edited scripts for Reaper\par}
-{\pard \ql \f0 \sa180 \li0 \fi0 The URL to import in ReaPack is {\field{\*\fldinst{HYPERLINK "https://github.com/cfillion/reapack-repository-template/raw/master/index.xml"}}{\fldrslt{\ul
-https://github.com/{\f1 <your username>}/{\f1 <repository name>}/raw/master/index.xml
+{\pard \ql \f0 \sa180 \li0 \fi0 The URL to import in ReaPack is {\field{\*\fldinst{HYPERLINK "https://github.com/DMDComposer/ReaScripts/raw/master/index.xml"}}{\fldrslt{\ul
+https://github.com/DMDComposer/ReaScripts/raw/master/index.xml
 }}}
 .\par}
 }
