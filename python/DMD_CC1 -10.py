@@ -1,8 +1,8 @@
-# @description CC1 + 10 on selected CC
+# @description CC1 - 10 on selected CC
 # @author DMDComposer
-# @version 1.0
+# @version 1.1
 # @about
-#   Select specific cc1 points, and raise +10
+#   Select specific cc1 points, and decrease by 10
 
 # reapy # https://python-reapy.readthedocs.io/en/latest/api_guide.html#://
 
