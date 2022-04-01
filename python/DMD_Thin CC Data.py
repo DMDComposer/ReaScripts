@@ -1,4 +1,9 @@
-# reapy # https://python-reapy.readthedocs.io/en/latest/api_guide.html#://
+# @description Thin Midi CC of last touched lane.
+# @author DMDComposer
+# @version 1.0
+# @about
+#   based on robgb script, Thin Midi CC of last touched lane.
+# reapy -- https://python-reapy.readthedocs.io/en/latest/api_guide.html#://
 
 from reapy import print, inside_reaper
 

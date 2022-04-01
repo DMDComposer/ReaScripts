@@ -1,3 +1,9 @@
+// @description Set All Send Volumes on Selected Tracks to the Same
+// @author DMDComposer
+// @version 1.1
+// @about
+//   Set All Send Volumes on Selected Tracks to the Same
+
 function msg_s(m)
 (
   ShowConsoleMsg(m);

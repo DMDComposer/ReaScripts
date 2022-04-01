@@ -1,3 +1,9 @@
+-- @description Toggle selected tracks FX to offline
+-- @author DMDComposer
+-- @version 1.0
+-- @about
+--   Toggle selected tracks FX to offline
+--   Ok is Offline | Cancel is Online
 function log(args)
     reaper.ClearConsole()
     reaper.ShowConsoleMsg(args)

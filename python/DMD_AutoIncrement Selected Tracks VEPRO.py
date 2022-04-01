@@ -1,3 +1,8 @@
+# @description Auto increment VEPRO channel busses on selected tracks
+# @author DMDComposer
+# @version 1.0
+# @about
+#   Select tracks, starting bus, and starting channel.
 # reapy -- https://python-reapy.readthedocs.io/en/latest/api_guide.html#://
 
 from reapy import (

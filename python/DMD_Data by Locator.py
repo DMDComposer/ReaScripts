@@ -1,3 +1,8 @@
+# @description Data by Locators
+# @author DMDComposer
+# @version 1.1
+# @about
+#   Reaper replication of Cubase's Data by Locators (loop range in reaper)
 # reapy -- https://python-reapy.readthedocs.io/en/latest/api_guide.html#://
 
 from reapy import print, inside_reaper

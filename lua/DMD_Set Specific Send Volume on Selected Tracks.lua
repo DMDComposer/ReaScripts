@@ -1,4 +1,9 @@
--- consoleLog()
+-- @description Set Specific Send Volume on Selected Tracks
+-- @author DMDComposer
+-- @version 1.0
+-- @about
+--   Starting with 1, set the specific send, and then the volume +-
+--   for all selected tracks.
 local function log(args)
     -- reaper.ClearConsole()
     if type(args) == "table" then
@@ -26,8 +31,9 @@ local function main()
     local tr = reaper.GetSelectedTrack(0, 0)
     local numSends = reaper.GetTrackNumSends(tr, 0)
     local trackSendNames = getTrackSendNames(tr, numSends)
-    local userResponse, retVals = reaper.GetUserInputs("Select which send?", 3, "extrawidth=-1" .. 
-                                                      trackSendNames, -6)
+    local userResponse, retVals = reaper.GetUserInputs("Select which send?", 3,
+                                                       "extrawidth=-1" ..
+                                                           trackSendNames, -6)
 
     -- log(userResponse)
     if userResponse == true then

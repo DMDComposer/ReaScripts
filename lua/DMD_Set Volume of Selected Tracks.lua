@@ -1,17 +1,11 @@
---[[
-   * ReaScript Name: Set volume for selected tracks
-   * Lua script for Cockos REAPER
-   * Author: spk77
-   * Author URI: http://forum.cockos.com/member.php?u=49553
-   * Licence: GPL v3
-   * Version: 1.0
-]] -- Set volume for selected track(s)
--- Lua script by SPK77 27-Sep-2015
--- Version: 0.2015.9.27
---
--- range:
---  min: -inf
---  max: 12
+-- @description Set Volume on Selected Tracks
+-- @author spk77
+-- @version 1.0
+-- @about
+--   Set volume for selected track(s), edited by DMDComposer
+--   range:
+--   min: -inf
+--   max: 12
 function dialog(title, def_value)
     local ret, retvals = reaper.GetUserInputs(title, 1,
                                               "Set volume for selected track(s)",

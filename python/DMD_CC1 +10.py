@@ -1,19 +1,8 @@
-""" Description: Invert selected CC event values
-    Version: 1.0.0
-    Author: Lokasenna
-    Donation: https://paypal.me/Lokasenna
-    Changelog:
-        Initial Release
-    Links:
-        Lokasenna's Website http://forum.cockos.com/member.php?u=10417
-    About:
-        Inverts the values of the selected CC events. That is:
-        0 -> 127
-        127 -> 0
-        n -> 127-n
-
-    Donation: https://www.paypal.me/Lokasenna
- """
+# @description CC1 + 10 on selected CC
+# @author DMDComposer
+# @version 1.0
+# @about
+#   Select specific cc1 points, and raise +10
 
 # reapy # https://python-reapy.readthedocs.io/en/latest/api_guide.html#://
 
