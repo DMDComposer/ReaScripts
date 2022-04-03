@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<index version="1" name="DMDComposer Scripts" commit="423d282f1d070462cf2bfc277644fb94a075a7a1">
+<index version="1" name="DMDComposer Scripts" commit="0308ad27c91e8f195e3e3059593cec2cf7464250">
   <category name="eel">
     <reapack name="DMD_Set All Send Volumes on Selected Tracks.eel" type="script" desc="Set All Send Volumes on Selected Tracks to the Same">
       <metadata>
@@ -288,6 +288,20 @@
       </metadata>
       <version name="0.1" author="DMDComposer" time="2022-04-01T12:32:29Z">
         <source main="main">https://github.com/DMDComposer/ReaScripts/raw/52e81e45664468a082056396751a1e6ceb5cf996/python/DMD_saveUpVersion.py</source>
+      </version>
+    </reapack>
+    <reapack name="DMD_Set Selected Tracks REC to Stereo Output.py" type="script" desc="Set Selected Tracks REC to Stereo Output">
+      <metadata>
+        <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 Courier;}}
+{\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
+\widowctrl\hyphauto
+
+{\pard \ql \f0 \sa180 \li0 \fi0 Select tracks and change the record mode to stere out\par}
+}
+]]></description>
+      </metadata>
+      <version name="1.0" author="DMDComposer" time="2022-04-03T03:06:02Z">
+        <source main="main">https://github.com/DMDComposer/ReaScripts/raw/0308ad27c91e8f195e3e3059593cec2cf7464250/python/DMD_Set%20Selected%20Tracks%20REC%20to%20Stereo%20Output.py</source>
       </version>
     </reapack>
     <reapack name="DMD_Thin CC Data.py" type="script" desc="Thin Midi CC of last touched lane.">
