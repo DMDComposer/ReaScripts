@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<index version="1" name="DMDComposer Scripts" commit="7b0922a427a726636cf41ccab4a2d25f7d8a4194">
+<index version="1" name="DMDComposer Scripts" commit="c87b070fa5b005d8da876d361cff2bd4a9d3e524">
   <category name="eel">
     <reapack name="DMD_Set All Send Volumes on Selected Tracks.eel" type="script" desc="Set All Send Volumes on Selected Tracks to the Same">
       <metadata>
@@ -116,20 +116,6 @@
       </metadata>
       <version name="1.0" author="DMDComposer" time="2022-04-01T12:32:29Z">
         <source main="main">https://github.com/DMDComposer/ReaScripts/raw/52e81e45664468a082056396751a1e6ceb5cf996/lua/DMD_Set%20Volume%20of%20Specific%20Track.lua</source>
-      </version>
-    </reapack>
-    <reapack name="MPL_Search Tracks.lua" type="script" desc="Search tracks">
-      <metadata>
-        <link rel="website">http://forum.cockos.com/member.php?u=70694</link>
-      </metadata>
-      <version name="1.0.1" author="MPL" time="2022-04-01T12:14:27Z">
-        <changelog><![CDATA[+ fix crash when pressing Ctrl+Right before typing anything]]></changelog>
-        <source main="main">https://github.com/DMDComposer/ReaScripts/raw/aff8a362448c54db424b60ebe19b3d32b36a9957/lua/MPL_Search%20Tracks.lua</source>
-      </version>
-    </reapack>
-    <reapack name="tack_Select Track by Name.lua" type="script" desc="Select Track By Name">
-      <version name="1.0" author="Jason Tackaberry (tack)" time="2022-04-01T12:14:27Z">
-        <source main="main">https://github.com/DMDComposer/ReaScripts/raw/aff8a362448c54db424b60ebe19b3d32b36a9957/lua/tack_Select%20Track%20by%20Name.lua</source>
       </version>
     </reapack>
   </category>
