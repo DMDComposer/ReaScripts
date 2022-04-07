@@ -131,3 +131,5 @@ dist
 /lua/DMD_Arm Active Media Item in MIDI Editor.lua
 /testeLua.lua
 /.vscode
+/lua/MPL_Search Tracks.lua
+/lua/tack_Select Track by Name.lua
