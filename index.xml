@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<index version="1" name="DMDComposer Scripts" commit="839e46393f07344d9c66ab5b431e38f2fb59eb27">
+<index version="1" name="DMDComposer Scripts" commit="5269ca31981e3c09258ce08fec958d455faf3846">
   <category name="eel">
     <reapack name="DMD_Set All Send Volumes on Selected Tracks.eel" type="script" desc="Set All Send Volumes on Selected Tracks to the Same">
       <metadata>
@@ -93,7 +93,7 @@
 {\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
 \widowctrl\hyphauto
 
-{\pard \ql \f0 \sa180 \li0 \fi0 Set volume for selected track(s), edited by DMDComposer range: min: -inf max: 12\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 Set volume for selected track(s), edited by , original idea by spk77 range: min: -inf max: 12\par}
 }
 ]]></description>
       </metadata>
@@ -102,6 +102,9 @@
       </version>
       <version name="1.0" author="spk77" time="2022-04-01T12:32:29Z">
         <source main="main">https://github.com/DMDComposer/ReaScripts/raw/52e81e45664468a082056396751a1e6ceb5cf996/lua/DMD_Set%20Volume%20of%20Selected%20Tracks.lua</source>
+      </version>
+      <version name="1.1" author="DMDComposer" time="2022-04-12T13:03:04Z">
+        <source main="main">https://github.com/DMDComposer/ReaScripts/raw/5269ca31981e3c09258ce08fec958d455faf3846/lua/DMD_Set%20Volume%20of%20Selected%20Tracks.lua</source>
       </version>
     </reapack>
     <reapack name="DMD_Set Volume of Specific Track.lua" type="script" desc="Set Volume of specific Track">
