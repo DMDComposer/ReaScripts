@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<index version="1" name="DMDComposer Scripts" commit="2ddf76114112475c6cdbdfdba9ff6e9f239bd479">
+<index version="1" name="DMDComposer Scripts" commit="1913d6557fb885859d6e165a4dc26da2c6d4dfa7">
   <category name="eel">
     <reapack name="DMD_Set All Send Volumes on Selected Tracks.eel" type="script" desc="Set All Send Volumes on Selected Tracks to the Same">
       <metadata>
@@ -209,6 +209,20 @@
     </reapack>
   </category>
   <category name="MIDI Editor">
+    <reapack name="DMD_Close Midi Editor.py" type="script" desc="Close Midi Editor &amp; Unsolo Items">
+      <metadata>
+        <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 Courier;}}
+{\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
+\widowctrl\hyphauto
+
+{\pard \ql \f0 \sa180 \li0 \fi0 Close Midi Editor & Unsolo Items.\par}
+}
+]]></description>
+      </metadata>
+      <version name="1.0" author="DMDComposer" time="2022-04-12T18:18:16Z">
+        <source main="midi_editor">https://github.com/DMDComposer/ReaScripts/raw/1913d6557fb885859d6e165a4dc26da2c6d4dfa7/MIDI%20Editor/DMD_Close%20Midi%20Editor.py</source>
+      </version>
+    </reapack>
     <reapack name="DMD_Toggle Solo on Selected Items.py" type="script" desc="Toggle Solo on Selected Items within the Midi Editor">
       <metadata>
         <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 Courier;}}
