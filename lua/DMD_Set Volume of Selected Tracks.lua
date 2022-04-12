@@ -1,8 +1,8 @@
 -- @description Set Volume on Selected Tracks
--- @author spk77
--- @version 1.0
+-- @author DMDComposer
+-- @version 1.1
 -- @about
---   Set volume for selected track(s), edited by DMDComposer
+--   Set volume for selected track(s), edited by , original idea by spk77
 --   range:
 --   min: -inf
 --   max: 12
