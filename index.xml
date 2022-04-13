@@ -1,32 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
-<index version="1" name="DMDComposer Scripts" commit="bc0c74a574e4024e5df050e28a68f98fb13ceb23">
-  <category name="eel">
-    <reapack name="DMD_Set All Send Volumes on Selected Tracks.eel" type="script" desc="Set All Send Volumes on Selected Tracks to the Same">
+<index version="1" name="DMDComposer Scripts" commit="7acb6a1e45187d681ceb04ec47d2a1fbbf5ec51e">
+  <category name="Arranger">
+    <reapack name="DMD_Data by Cursor.py" type="script" desc="Data by Cursor">
       <metadata>
         <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 Courier;}}
 {\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
 \widowctrl\hyphauto
 
-{\pard \ql \f0 \sa180 \li0 \fi0 Set All Send Volumes on Selected Tracks to the Same\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 Reaper replication of Cubase's Data by Cursor\par}
 }
 ]]></description>
       </metadata>
-      <version name="1.1" author="DMDComposer" time="2022-04-01T12:32:29Z">
-        <source main="main">https://github.com/DMDComposer/ReaScripts/raw/52e81e45664468a082056396751a1e6ceb5cf996/eel/DMD_Set%20All%20Send%20Volumes%20on%20Selected%20Tracks.eel</source>
+      <version name="1.1" author="DMDComposer" time="2022-04-13T13:30:31Z">
+        <source main="main">https://github.com/DMDComposer/ReaScripts/raw/7acb6a1e45187d681ceb04ec47d2a1fbbf5ec51e/Arranger/DMD_Data%20by%20Cursor.py</source>
       </version>
     </reapack>
-    <reapack name="DMD_Set Specific Send Volume on Selected Tracks.eel" type="script" desc="Set All Volumes on Selected Tracks to the Same">
+    <reapack name="DMD_Data by Locator.py" type="script" desc="Data by Locators">
       <metadata>
         <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 Courier;}}
 {\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
 \widowctrl\hyphauto
 
-{\pard \ql \f0 \sa180 \li0 \fi0 Set All Volumes on Selected Tracks to the Same\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 Reaper replication of Cubase's Data by Locators (loop range in reaper)\par}
 }
 ]]></description>
       </metadata>
-      <version name="1.1" author="DMDComposer" time="2022-04-01T12:32:29Z">
-        <source main="main">https://github.com/DMDComposer/ReaScripts/raw/52e81e45664468a082056396751a1e6ceb5cf996/eel/DMD_Set%20Specific%20Send%20Volume%20on%20Selected%20Tracks.eel</source>
+      <version name="1.1" author="DMDComposer" time="2022-04-13T13:30:31Z">
+        <source main="main">https://github.com/DMDComposer/ReaScripts/raw/7acb6a1e45187d681ceb04ec47d2a1fbbf5ec51e/Arranger/DMD_Data%20by%20Locator.py</source>
       </version>
     </reapack>
   </category>
@@ -143,34 +143,18 @@
         <source main="main">https://github.com/DMDComposer/ReaScripts/raw/bc0c74a574e4024e5df050e28a68f98fb13ceb23/FX/DMD_Add_FX_Simplon.py</source>
       </version>
     </reapack>
-  </category>
-  <category name="lua">
-    <reapack name="DMD_Remove Midi Hardware Out on Selected Tracks.lua" type="script" desc="remove any hardware outs on selected tracks">
+    <reapack name="DMD_Open Instrument on Current Track.py" type="script" desc="Open Instrument on Current Track">
       <metadata>
         <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 Courier;}}
 {\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
 \widowctrl\hyphauto
 
-{\pard \ql \f0 \sa180 \li0 \fi0 Created to remove general midi hardware outs on tracks\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 open first instrument on selected track toggle if already opened\par}
 }
 ]]></description>
       </metadata>
-      <version name="1.0" author="DMDComposer" time="2022-04-01T12:32:29Z">
-        <source main="main">https://github.com/DMDComposer/ReaScripts/raw/52e81e45664468a082056396751a1e6ceb5cf996/lua/DMD_Remove%20Midi%20Hardware%20Out%20on%20Selected%20Tracks.lua</source>
-      </version>
-    </reapack>
-    <reapack name="DMD_Set Offset for Selected Tracks.lua" type="script" desc="Set off in ms on seleted tracks">
-      <metadata>
-        <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 Courier;}}
-{\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
-\widowctrl\hyphauto
-
-{\pard \ql \f0 \sa180 \li0 \fi0 Used to setup predelay/offsets on instrument selected tracks\par}
-}
-]]></description>
-      </metadata>
-      <version name="1.0" author="DMDComposer" time="2022-04-01T12:32:29Z">
-        <source main="main">https://github.com/DMDComposer/ReaScripts/raw/52e81e45664468a082056396751a1e6ceb5cf996/lua/DMD_Set%20Offset%20for%20Selected%20Tracks.lua</source>
+      <version name="1.1" author="DMDComposer" time="2022-04-13T13:30:31Z">
+        <source main="main">https://github.com/DMDComposer/ReaScripts/raw/7acb6a1e45187d681ceb04ec47d2a1fbbf5ec51e/FX/DMD_Open%20Instrument%20on%20Current%20Track.py</source>
       </version>
     </reapack>
     <reapack name="DMD_Set Selected Track FX to Offline or Online.lua" type="script" desc="Toggle selected tracks FX to offline">
@@ -183,146 +167,26 @@
 }
 ]]></description>
       </metadata>
-      <version name="1.0" author="DMDComposer" time="2022-04-01T12:32:29Z">
-        <source main="main">https://github.com/DMDComposer/ReaScripts/raw/52e81e45664468a082056396751a1e6ceb5cf996/lua/DMD_Set%20Selected%20Track%20FX%20to%20Offline%20or%20Online.lua</source>
-      </version>
-    </reapack>
-    <reapack name="DMD_Set Specific Send Volume on Selected Tracks.lua" type="script" desc="Set Specific Send Volume on Selected Tracks">
-      <metadata>
-        <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 Courier;}}
-{\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
-\widowctrl\hyphauto
-
-{\pard \ql \f0 \sa180 \li0 \fi0 Starting with 1, set the specific send, and then the volume +- for all selected tracks.\par}
-}
-]]></description>
-      </metadata>
-      <version name="1.0" author="DMDComposer" time="2022-04-01T12:32:29Z">
-        <source main="main">https://github.com/DMDComposer/ReaScripts/raw/52e81e45664468a082056396751a1e6ceb5cf996/lua/DMD_Set%20Specific%20Send%20Volume%20on%20Selected%20Tracks.lua</source>
-      </version>
-    </reapack>
-    <reapack name="DMD_Set Volume of Selected Tracks.lua" type="script" desc="Set Volume on Selected Tracks">
-      <metadata>
-        <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 Courier;}}
-{\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
-\widowctrl\hyphauto
-
-{\pard \ql \f0 \sa180 \li0 \fi0 Set volume for selected track(s), edited by , original idea by spk77 range: min: -inf max: 12\par}
-}
-]]></description>
-      </metadata>
-      <version name="0.2015.9.27" author="spk77" time="2022-04-01T12:14:27Z">
-        <source main="main">https://github.com/DMDComposer/ReaScripts/raw/aff8a362448c54db424b60ebe19b3d32b36a9957/lua/DMD_Set%20Volume%20of%20Selected%20Tracks.lua</source>
-      </version>
-      <version name="1.0" author="spk77" time="2022-04-01T12:32:29Z">
-        <source main="main">https://github.com/DMDComposer/ReaScripts/raw/52e81e45664468a082056396751a1e6ceb5cf996/lua/DMD_Set%20Volume%20of%20Selected%20Tracks.lua</source>
-      </version>
-      <version name="1.1" author="DMDComposer" time="2022-04-12T13:03:04Z">
-        <source main="main">https://github.com/DMDComposer/ReaScripts/raw/5269ca31981e3c09258ce08fec958d455faf3846/lua/DMD_Set%20Volume%20of%20Selected%20Tracks.lua</source>
-      </version>
-    </reapack>
-    <reapack name="DMD_Set Volume of Specific Track.lua" type="script" desc="Set Volume of specific Track">
-      <metadata>
-        <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 Courier;}}
-{\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
-\widowctrl\hyphauto
-
-{\pard \ql \f0 \sa180 \li0 \fi0 Set volume on a specific track\par}
-}
-]]></description>
-      </metadata>
-      <version name="1.0" author="DMDComposer" time="2022-04-01T12:32:29Z">
-        <source main="main">https://github.com/DMDComposer/ReaScripts/raw/52e81e45664468a082056396751a1e6ceb5cf996/lua/DMD_Set%20Volume%20of%20Specific%20Track.lua</source>
-      </version>
-    </reapack>
-  </category>
-  <category name="lua/Set Master Volume Presets">
-    <reapack name="DMD_Master Volume to -12db.lua" type="script" desc="Set master volume to -12db">
-      <metadata>
-        <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 Courier;}}
-{\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
-\widowctrl\hyphauto
-
-{\pard \ql \f0 \sa180 \li0 \fi0 reascript to set master volume\par}
-}
-]]></description>
-      </metadata>
-      <version name="1.0" author="DMDComposer" time="2022-04-01T12:32:29Z">
-        <source main="main">https://github.com/DMDComposer/ReaScripts/raw/52e81e45664468a082056396751a1e6ceb5cf996/lua/Set%20Master%20Volume%20Presets/DMD_Master%20Volume%20to%20-12db.lua</source>
-      </version>
-    </reapack>
-    <reapack name="DMD_Master Volume to -18db.lua" type="script" desc="Set master volume to -18db">
-      <metadata>
-        <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 Courier;}}
-{\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
-\widowctrl\hyphauto
-
-{\pard \ql \f0 \sa180 \li0 \fi0 reascript to set master volume\par}
-}
-]]></description>
-      </metadata>
-      <version name="1.0" author="DMDComposer" time="2022-04-01T12:39:50Z">
-        <source main="main">https://github.com/DMDComposer/ReaScripts/raw/8c88a62ef3bbc2262cdeed2d6634dbef83fc1526/lua/Set%20Master%20Volume%20Presets/DMD_Master%20Volume%20to%20-18db.lua</source>
-      </version>
-    </reapack>
-    <reapack name="DMD_Master Volume to -24db.lua" type="script" desc="Set master volume to -24db">
-      <metadata>
-        <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 Courier;}}
-{\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
-\widowctrl\hyphauto
-
-{\pard \ql \f0 \sa180 \li0 \fi0 reascript to set master volume\par}
-}
-]]></description>
-      </metadata>
-      <version name="1.0" author="DMDComposer" time="2022-04-01T12:32:29Z">
-        <source main="main">https://github.com/DMDComposer/ReaScripts/raw/52e81e45664468a082056396751a1e6ceb5cf996/lua/Set%20Master%20Volume%20Presets/DMD_Master%20Volume%20to%20-24db.lua</source>
-      </version>
-    </reapack>
-    <reapack name="DMD_Master Volume to -6db.lua" type="script" desc="Set master volume to -6db">
-      <metadata>
-        <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 Courier;}}
-{\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
-\widowctrl\hyphauto
-
-{\pard \ql \f0 \sa180 \li0 \fi0 reascript to set master volume\par}
-}
-]]></description>
-      </metadata>
-      <version name="1.0" author="DMDComposer" time="2022-04-01T12:32:29Z">
-        <source main="main">https://github.com/DMDComposer/ReaScripts/raw/52e81e45664468a082056396751a1e6ceb5cf996/lua/Set%20Master%20Volume%20Presets/DMD_Master%20Volume%20to%20-6db.lua</source>
-      </version>
-    </reapack>
-    <reapack name="DMD_Master Volume to -9db.lua" type="script" desc="Set master volume to -9db">
-      <metadata>
-        <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 Courier;}}
-{\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
-\widowctrl\hyphauto
-
-{\pard \ql \f0 \sa180 \li0 \fi0 reascript to set master volume\par}
-}
-]]></description>
-      </metadata>
-      <version name="1.0" author="DMDComposer" time="2022-04-01T12:32:29Z">
-        <source main="main">https://github.com/DMDComposer/ReaScripts/raw/52e81e45664468a082056396751a1e6ceb5cf996/lua/Set%20Master%20Volume%20Presets/DMD_Master%20Volume%20to%20-9db.lua</source>
-      </version>
-    </reapack>
-    <reapack name="DMD_Master Volume to 0db.lua" type="script" desc="Set master volume to 0db">
-      <metadata>
-        <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 Courier;}}
-{\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
-\widowctrl\hyphauto
-
-{\pard \ql \f0 \sa180 \li0 \fi0 reascript to set master volume\par}
-}
-]]></description>
-      </metadata>
-      <version name="1.0" author="DMDComposer" time="2022-04-01T12:32:29Z">
-        <source main="main">https://github.com/DMDComposer/ReaScripts/raw/52e81e45664468a082056396751a1e6ceb5cf996/lua/Set%20Master%20Volume%20Presets/DMD_Master%20Volume%20to%200db.lua</source>
+      <version name="1.0" author="DMDComposer" time="2022-04-13T13:30:31Z">
+        <source main="main">https://github.com/DMDComposer/ReaScripts/raw/7acb6a1e45187d681ceb04ec47d2a1fbbf5ec51e/FX/DMD_Set%20Selected%20Track%20FX%20to%20Offline%20or%20Online.lua</source>
       </version>
     </reapack>
   </category>
   <category name="MIDI Editor">
+    <reapack name="DMD_CC1 -10.py" type="script" desc="CC1 - 10 on selected CC">
+      <metadata>
+        <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 Courier;}}
+{\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
+\widowctrl\hyphauto
+
+{\pard \ql \f0 \sa180 \li0 \fi0 Select specific cc1 points, and decrease by 10\par}
+}
+]]></description>
+      </metadata>
+      <version name="1.1" author="DMDComposer" time="2022-04-13T13:30:31Z">
+        <source main="midi_editor">https://github.com/DMDComposer/ReaScripts/raw/7acb6a1e45187d681ceb04ec47d2a1fbbf5ec51e/MIDI%20Editor/DMD_CC1%20-10.py</source>
+      </version>
+    </reapack>
     <reapack name="DMD_Close Midi Editor.py" type="script" desc="Close Midi Editor &amp; Unsolo Items">
       <metadata>
         <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 Courier;}}
@@ -338,6 +202,20 @@
       </version>
       <version name="1.1" author="DMDComposer" time="2022-04-13T00:43:14Z">
         <source main="midi_editor">https://github.com/DMDComposer/ReaScripts/raw/93deb1ef1aec350daccf4495062a9e9d4d530d42/MIDI%20Editor/DMD_Close%20Midi%20Editor.py</source>
+      </version>
+    </reapack>
+    <reapack name="DMD_Thin CC Data.py" type="script" desc="Thin Midi CC of last touched lane.">
+      <metadata>
+        <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 Courier;}}
+{\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
+\widowctrl\hyphauto
+
+{\pard \ql \f0 \sa180 \li0 \fi0 based on robgb script, Thin Midi CC of last touched lane.\par}
+}
+]]></description>
+      </metadata>
+      <version name="1.0" author="DMDComposer" time="2022-04-13T13:30:31Z">
+        <source main="midi_editor">https://github.com/DMDComposer/ReaScripts/raw/7acb6a1e45187d681ceb04ec47d2a1fbbf5ec51e/MIDI%20Editor/DMD_Thin%20CC%20Data.py</source>
       </version>
     </reapack>
     <reapack name="DMD_Toggle Solo on Selected Items.py" type="script" desc="Toggle Solo on Selected Items within the Midi Editor">
@@ -372,80 +250,7 @@
       </version>
     </reapack>
   </category>
-  <category name="python">
-    <reapack name="DMD_AutoIncrement Selected Tracks VEPRO.py" type="script" desc="Auto increment VEPRO channel busses on selected tracks">
-      <metadata>
-        <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 Courier;}}
-{\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
-\widowctrl\hyphauto
-
-{\pard \ql \f0 \sa180 \li0 \fi0 Select tracks, starting bus, and starting channel.\par}
-}
-]]></description>
-      </metadata>
-      <version name="1.0" author="DMDComposer" time="2022-04-01T12:32:29Z">
-        <source main="main">https://github.com/DMDComposer/ReaScripts/raw/52e81e45664468a082056396751a1e6ceb5cf996/python/DMD_AutoIncrement%20Selected%20Tracks%20VEPRO.py</source>
-      </version>
-    </reapack>
-    <reapack name="DMD_CC1 -10.py" type="script" desc="CC1 - 10 on selected CC">
-      <metadata>
-        <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 Courier;}}
-{\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
-\widowctrl\hyphauto
-
-{\pard \ql \f0 \sa180 \li0 \fi0 Select specific cc1 points, and decrease by 10\par}
-}
-]]></description>
-      </metadata>
-      <version name="1.1" author="DMDComposer" time="2022-04-01T12:53:25Z">
-        <source main="main">https://github.com/DMDComposer/ReaScripts/raw/423d282f1d070462cf2bfc277644fb94a075a7a1/python/DMD_CC1%20-10.py</source>
-      </version>
-    </reapack>
-    <reapack name="DMD_Data by Cursor.py" type="script" desc="Data by Cursor">
-      <metadata>
-        <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 Courier;}}
-{\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
-\widowctrl\hyphauto
-
-{\pard \ql \f0 \sa180 \li0 \fi0 Reaper replication of Cubase's Data by Cursor\par}
-}
-]]></description>
-      </metadata>
-      <version name="1.1" author="DMDComposer" time="2022-04-01T12:32:29Z">
-        <source main="main">https://github.com/DMDComposer/ReaScripts/raw/52e81e45664468a082056396751a1e6ceb5cf996/python/DMD_Data%20by%20Cursor.py</source>
-      </version>
-    </reapack>
-    <reapack name="DMD_Data by Locator.py" type="script" desc="Data by Locators">
-      <metadata>
-        <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 Courier;}}
-{\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
-\widowctrl\hyphauto
-
-{\pard \ql \f0 \sa180 \li0 \fi0 Reaper replication of Cubase's Data by Locators (loop range in reaper)\par}
-}
-]]></description>
-      </metadata>
-      <version name="1.1" author="DMDComposer" time="2022-04-01T12:32:29Z">
-        <source main="main">https://github.com/DMDComposer/ReaScripts/raw/52e81e45664468a082056396751a1e6ceb5cf996/python/DMD_Data%20by%20Locator.py</source>
-      </version>
-    </reapack>
-    <reapack name="DMD_Open Instrument on Current Track.py" type="script" desc="Open Instrument on Current Track">
-      <metadata>
-        <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 Courier;}}
-{\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
-\widowctrl\hyphauto
-
-{\pard \ql \f0 \sa180 \li0 \fi0 open first instrument on selected track toggle if already opened\par}
-}
-]]></description>
-      </metadata>
-      <version name="1.0" author="DMDComposer" time="2022-04-07T17:45:17Z">
-        <source main="main">https://github.com/DMDComposer/ReaScripts/raw/7b0922a427a726636cf41ccab4a2d25f7d8a4194/python/DMD_Open%20Instrument%20on%20Current%20Track.py</source>
-      </version>
-      <version name="1.1" author="DMDComposer" time="2022-04-07T18:00:04Z">
-        <source main="main">https://github.com/DMDComposer/ReaScripts/raw/64f18601aad14e85b238625ede9a9f0a1d25c0f8/python/DMD_Open%20Instrument%20on%20Current%20Track.py</source>
-      </version>
-    </reapack>
+  <category name="Project">
     <reapack name="DMD_saveUpVersion.py" type="script" desc="Save up version">
       <metadata>
         <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 Courier;}}
@@ -456,8 +261,66 @@
 }
 ]]></description>
       </metadata>
-      <version name="0.1" author="DMDComposer" time="2022-04-01T12:32:29Z">
-        <source main="main">https://github.com/DMDComposer/ReaScripts/raw/52e81e45664468a082056396751a1e6ceb5cf996/python/DMD_saveUpVersion.py</source>
+      <version name="0.1" author="DMDComposer" time="2022-04-13T13:30:31Z">
+        <source main="main">https://github.com/DMDComposer/ReaScripts/raw/7acb6a1e45187d681ceb04ec47d2a1fbbf5ec51e/Project/DMD_saveUpVersion.py</source>
+      </version>
+    </reapack>
+  </category>
+  <category name="Track">
+    <reapack name="DMD_AutoIncrement Selected Tracks VEPRO.py" type="script" desc="Auto increment VEPRO channel busses on selected tracks">
+      <metadata>
+        <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 Courier;}}
+{\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
+\widowctrl\hyphauto
+
+{\pard \ql \f0 \sa180 \li0 \fi0 Select tracks, starting bus, and starting channel.\par}
+}
+]]></description>
+      </metadata>
+      <version name="1.0" author="DMDComposer" time="2022-04-13T13:30:31Z">
+        <source main="main">https://github.com/DMDComposer/ReaScripts/raw/7acb6a1e45187d681ceb04ec47d2a1fbbf5ec51e/Track/DMD_AutoIncrement%20Selected%20Tracks%20VEPRO.py</source>
+      </version>
+    </reapack>
+    <reapack name="DMD_Remove Midi Hardware Out on Selected Tracks.lua" type="script" desc="remove any hardware outs on selected tracks">
+      <metadata>
+        <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 Courier;}}
+{\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
+\widowctrl\hyphauto
+
+{\pard \ql \f0 \sa180 \li0 \fi0 Created to remove general midi hardware outs on tracks\par}
+}
+]]></description>
+      </metadata>
+      <version name="1.0" author="DMDComposer" time="2022-04-13T13:30:31Z">
+        <source main="main">https://github.com/DMDComposer/ReaScripts/raw/7acb6a1e45187d681ceb04ec47d2a1fbbf5ec51e/Track/DMD_Remove%20Midi%20Hardware%20Out%20on%20Selected%20Tracks.lua</source>
+      </version>
+    </reapack>
+    <reapack name="DMD_Set All Send Volumes on Selected Tracks.eel" type="script" desc="Set All Send Volumes on Selected Tracks to the Same">
+      <metadata>
+        <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 Courier;}}
+{\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
+\widowctrl\hyphauto
+
+{\pard \ql \f0 \sa180 \li0 \fi0 Set All Send Volumes on Selected Tracks to the Same\par}
+}
+]]></description>
+      </metadata>
+      <version name="1.1" author="DMDComposer" time="2022-04-13T13:30:31Z">
+        <source main="main">https://github.com/DMDComposer/ReaScripts/raw/7acb6a1e45187d681ceb04ec47d2a1fbbf5ec51e/Track/DMD_Set%20All%20Send%20Volumes%20on%20Selected%20Tracks.eel</source>
+      </version>
+    </reapack>
+    <reapack name="DMD_Set Offset for Selected Tracks.lua" type="script" desc="Set off in ms on seleted tracks">
+      <metadata>
+        <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 Courier;}}
+{\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
+\widowctrl\hyphauto
+
+{\pard \ql \f0 \sa180 \li0 \fi0 Used to setup predelay/offsets on instrument selected tracks\par}
+}
+]]></description>
+      </metadata>
+      <version name="1.0" author="DMDComposer" time="2022-04-13T13:30:31Z">
+        <source main="main">https://github.com/DMDComposer/ReaScripts/raw/7acb6a1e45187d681ceb04ec47d2a1fbbf5ec51e/Track/DMD_Set%20Offset%20for%20Selected%20Tracks.lua</source>
       </version>
     </reapack>
     <reapack name="DMD_Set Selected Tracks REC to Stereo Output.py" type="script" desc="Set Selected Tracks REC to Stereo Output">
@@ -470,22 +333,150 @@
 }
 ]]></description>
       </metadata>
-      <version name="1.0" author="DMDComposer" time="2022-04-03T03:06:02Z">
-        <source main="main">https://github.com/DMDComposer/ReaScripts/raw/0308ad27c91e8f195e3e3059593cec2cf7464250/python/DMD_Set%20Selected%20Tracks%20REC%20to%20Stereo%20Output.py</source>
+      <version name="1.0" author="DMDComposer" time="2022-04-13T13:30:31Z">
+        <source main="main">https://github.com/DMDComposer/ReaScripts/raw/7acb6a1e45187d681ceb04ec47d2a1fbbf5ec51e/Track/DMD_Set%20Selected%20Tracks%20REC%20to%20Stereo%20Output.py</source>
       </version>
     </reapack>
-    <reapack name="DMD_Thin CC Data.py" type="script" desc="Thin Midi CC of last touched lane.">
+    <reapack name="DMD_Set Specific Send Volume on Selected Tracks.eel" type="script" desc="Set All Volumes on Selected Tracks to the Same">
       <metadata>
         <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 Courier;}}
 {\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
 \widowctrl\hyphauto
 
-{\pard \ql \f0 \sa180 \li0 \fi0 based on robgb script, Thin Midi CC of last touched lane.\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 Set All Volumes on Selected Tracks to the Same\par}
 }
 ]]></description>
       </metadata>
-      <version name="1.0" author="DMDComposer" time="2022-04-01T12:32:29Z">
-        <source main="main">https://github.com/DMDComposer/ReaScripts/raw/52e81e45664468a082056396751a1e6ceb5cf996/python/DMD_Thin%20CC%20Data.py</source>
+      <version name="1.1" author="DMDComposer" time="2022-04-13T13:30:31Z">
+        <source main="main">https://github.com/DMDComposer/ReaScripts/raw/7acb6a1e45187d681ceb04ec47d2a1fbbf5ec51e/Track/DMD_Set%20Specific%20Send%20Volume%20on%20Selected%20Tracks.eel</source>
+      </version>
+    </reapack>
+    <reapack name="DMD_Set Specific Send Volume on Selected Tracks.lua" type="script" desc="Set Specific Send Volume on Selected Tracks">
+      <metadata>
+        <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 Courier;}}
+{\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
+\widowctrl\hyphauto
+
+{\pard \ql \f0 \sa180 \li0 \fi0 Starting with 1, set the specific send, and then the volume +- for all selected tracks.\par}
+}
+]]></description>
+      </metadata>
+      <version name="1.0" author="DMDComposer" time="2022-04-13T13:30:31Z">
+        <source main="main">https://github.com/DMDComposer/ReaScripts/raw/7acb6a1e45187d681ceb04ec47d2a1fbbf5ec51e/Track/DMD_Set%20Specific%20Send%20Volume%20on%20Selected%20Tracks.lua</source>
+      </version>
+    </reapack>
+    <reapack name="DMD_Set Volume of Selected Tracks.lua" type="script" desc="Set Volume on Selected Tracks">
+      <metadata>
+        <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 Courier;}}
+{\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
+\widowctrl\hyphauto
+
+{\pard \ql \f0 \sa180 \li0 \fi0 Set volume for selected track(s), edited by , original idea by spk77 range: min: -inf max: 12\par}
+}
+]]></description>
+      </metadata>
+      <version name="1.1" author="DMDComposer" time="2022-04-13T13:30:31Z">
+        <source main="main">https://github.com/DMDComposer/ReaScripts/raw/7acb6a1e45187d681ceb04ec47d2a1fbbf5ec51e/Track/DMD_Set%20Volume%20of%20Selected%20Tracks.lua</source>
+      </version>
+    </reapack>
+    <reapack name="DMD_Set Volume of Specific Track.lua" type="script" desc="Set Volume of specific Track">
+      <metadata>
+        <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 Courier;}}
+{\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
+\widowctrl\hyphauto
+
+{\pard \ql \f0 \sa180 \li0 \fi0 Set volume on a specific track\par}
+}
+]]></description>
+      </metadata>
+      <version name="1.0" author="DMDComposer" time="2022-04-13T13:30:31Z">
+        <source main="main">https://github.com/DMDComposer/ReaScripts/raw/7acb6a1e45187d681ceb04ec47d2a1fbbf5ec51e/Track/DMD_Set%20Volume%20of%20Specific%20Track.lua</source>
+      </version>
+    </reapack>
+  </category>
+  <category name="Track/Set Master Volume Presets">
+    <reapack name="DMD_Master Volume to -12db.lua" type="script" desc="Set master volume to -12db">
+      <metadata>
+        <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 Courier;}}
+{\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
+\widowctrl\hyphauto
+
+{\pard \ql \f0 \sa180 \li0 \fi0 reascript to set master volume\par}
+}
+]]></description>
+      </metadata>
+      <version name="1.0" author="DMDComposer" time="2022-04-13T13:30:31Z">
+        <source main="main">https://github.com/DMDComposer/ReaScripts/raw/7acb6a1e45187d681ceb04ec47d2a1fbbf5ec51e/Track/Set%20Master%20Volume%20Presets/DMD_Master%20Volume%20to%20-12db.lua</source>
+      </version>
+    </reapack>
+    <reapack name="DMD_Master Volume to -18db.lua" type="script" desc="Set master volume to -18db">
+      <metadata>
+        <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 Courier;}}
+{\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
+\widowctrl\hyphauto
+
+{\pard \ql \f0 \sa180 \li0 \fi0 reascript to set master volume\par}
+}
+]]></description>
+      </metadata>
+      <version name="1.0" author="DMDComposer" time="2022-04-13T13:30:31Z">
+        <source main="main">https://github.com/DMDComposer/ReaScripts/raw/7acb6a1e45187d681ceb04ec47d2a1fbbf5ec51e/Track/Set%20Master%20Volume%20Presets/DMD_Master%20Volume%20to%20-18db.lua</source>
+      </version>
+    </reapack>
+    <reapack name="DMD_Master Volume to -24db.lua" type="script" desc="Set master volume to -24db">
+      <metadata>
+        <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 Courier;}}
+{\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
+\widowctrl\hyphauto
+
+{\pard \ql \f0 \sa180 \li0 \fi0 reascript to set master volume\par}
+}
+]]></description>
+      </metadata>
+      <version name="1.0" author="DMDComposer" time="2022-04-13T13:30:31Z">
+        <source main="main">https://github.com/DMDComposer/ReaScripts/raw/7acb6a1e45187d681ceb04ec47d2a1fbbf5ec51e/Track/Set%20Master%20Volume%20Presets/DMD_Master%20Volume%20to%20-24db.lua</source>
+      </version>
+    </reapack>
+    <reapack name="DMD_Master Volume to -6db.lua" type="script" desc="Set master volume to -6db">
+      <metadata>
+        <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 Courier;}}
+{\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
+\widowctrl\hyphauto
+
+{\pard \ql \f0 \sa180 \li0 \fi0 reascript to set master volume\par}
+}
+]]></description>
+      </metadata>
+      <version name="1.0" author="DMDComposer" time="2022-04-13T13:30:31Z">
+        <source main="main">https://github.com/DMDComposer/ReaScripts/raw/7acb6a1e45187d681ceb04ec47d2a1fbbf5ec51e/Track/Set%20Master%20Volume%20Presets/DMD_Master%20Volume%20to%20-6db.lua</source>
+      </version>
+    </reapack>
+    <reapack name="DMD_Master Volume to -9db.lua" type="script" desc="Set master volume to -9db">
+      <metadata>
+        <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 Courier;}}
+{\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
+\widowctrl\hyphauto
+
+{\pard \ql \f0 \sa180 \li0 \fi0 reascript to set master volume\par}
+}
+]]></description>
+      </metadata>
+      <version name="1.0" author="DMDComposer" time="2022-04-13T13:30:31Z">
+        <source main="main">https://github.com/DMDComposer/ReaScripts/raw/7acb6a1e45187d681ceb04ec47d2a1fbbf5ec51e/Track/Set%20Master%20Volume%20Presets/DMD_Master%20Volume%20to%20-9db.lua</source>
+      </version>
+    </reapack>
+    <reapack name="DMD_Master Volume to 0db.lua" type="script" desc="Set master volume to 0db">
+      <metadata>
+        <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 Courier;}}
+{\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
+\widowctrl\hyphauto
+
+{\pard \ql \f0 \sa180 \li0 \fi0 reascript to set master volume\par}
+}
+]]></description>
+      </metadata>
+      <version name="1.0" author="DMDComposer" time="2022-04-13T13:30:31Z">
+        <source main="main">https://github.com/DMDComposer/ReaScripts/raw/7acb6a1e45187d681ceb04ec47d2a1fbbf5ec51e/Track/Set%20Master%20Volume%20Presets/DMD_Master%20Volume%20to%200db.lua</source>
       </version>
     </reapack>
   </category>
