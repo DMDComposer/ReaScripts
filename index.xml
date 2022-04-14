@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<index version="1" name="DMDComposer Scripts" commit="7acb6a1e45187d681ceb04ec47d2a1fbbf5ec51e">
+<index version="1" name="DMDComposer Scripts" commit="e063702e80742acb0faa6a024879cb7a6bbcca6d">
   <category name="Arranger">
     <reapack name="DMD_Data by Cursor.py" type="script" desc="Data by Cursor">
       <metadata>
@@ -233,6 +233,9 @@
       </version>
       <version name="1.1" author="DMDComposer" time="2022-04-12T18:23:50Z">
         <source main="midi_editor">https://github.com/DMDComposer/ReaScripts/raw/6ba7c2ff33a488019fc2b67da3a1b60a83156fc7/MIDI%20Editor/DMD_Toggle%20Solo%20on%20Selected%20Items.py</source>
+      </version>
+      <version name="1.2" author="DMDComposer" time="2022-04-14T00:08:56Z">
+        <source main="midi_editor">https://github.com/DMDComposer/ReaScripts/raw/e063702e80742acb0faa6a024879cb7a6bbcca6d/MIDI%20Editor/DMD_Toggle%20Solo%20on%20Selected%20Items.py</source>
       </version>
     </reapack>
     <reapack name="DMD_Zoom to Cursor.py" type="script" desc="Zoom to Cursor within Midi Editor">
