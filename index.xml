@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<index version="1" name="DMDComposer Scripts" commit="e063702e80742acb0faa6a024879cb7a6bbcca6d">
+<index version="1" name="DMDComposer Scripts" commit="2fcaf28611af572df64ade706193845421966493">
   <category name="Arranger">
     <reapack name="DMD_Data by Cursor.py" type="script" desc="Data by Cursor">
       <metadata>
@@ -169,6 +169,20 @@
       </metadata>
       <version name="1.0" author="DMDComposer" time="2022-04-13T13:30:31Z">
         <source main="main">https://github.com/DMDComposer/ReaScripts/raw/7acb6a1e45187d681ceb04ec47d2a1fbbf5ec51e/FX/DMD_Set%20Selected%20Track%20FX%20to%20Offline%20or%20Online.lua</source>
+      </version>
+    </reapack>
+    <reapack name="DMD_Toggle All VEP Instances.py" type="script" desc="Toggle All VEP Instances">
+      <metadata>
+        <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 Courier;}}
+{\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
+\widowctrl\hyphauto
+
+{\pard \ql \f0 \sa180 \li0 \fi0 Toggle All VEP Instances\par}
+}
+]]></description>
+      </metadata>
+      <version name="1.0" author="DMDComposer" time="2022-04-15T17:22:25Z">
+        <source main="main">https://github.com/DMDComposer/ReaScripts/raw/2fcaf28611af572df64ade706193845421966493/FX/DMD_Toggle%20All%20VEP%20Instances.py</source>
       </version>
     </reapack>
   </category>
