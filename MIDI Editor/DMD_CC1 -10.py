@@ -77,11 +77,4 @@ def Main():
 
 
 with inside_reaper():
-    import time
-
-    t0 = time.time()
-
     Main()
-
-    t1 = time.time()
-    print(t1 - t0)
